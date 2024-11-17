@@ -51,14 +51,13 @@ function toggleMenu() {
 }
 
 // Close menu when clicking outside
-document.addEventListener('click', function(event) {
+document.addEventListener("click", function (event) {
   const menu = document.querySelector(".menu-links");
   const icon = document.querySelector(".hamburger-icon");
   const hamburgerNav = document.getElementById("hamburger-nav");
-  
-  if (menu.classList.contains('open') && 
-      !hamburgerNav.contains(event.target)) {
-    menu.classList.remove('open');
-    icon.classList.remove('open');
+
+  if (menu.classList.contains("open") && !hamburgerNav.contains(event.target)) {
+    menu.classList.remove("open");
+    icon.classList.remove("open");
   }
 });
