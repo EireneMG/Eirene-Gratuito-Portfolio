@@ -197,6 +197,10 @@ p {
   gap: 0.5rem;
 }
 
+.download-button{
+  text-decoration: none; /* Remove underline by default */
+}
+
 .see-more {
   text-decoration: none; /* Remove underline by default */
   color: rgba(255, 255, 255, 0.6); /* Use the inherited color from the parent */
