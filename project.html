@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Projects - Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="project.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <div id="hamburger-nav">
+          <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="menu-links">
+              <ul>
+                <li><a class="nav-link" href="index.html">HOME</a></li>
+                <li><a class="nav-link" href="index.html#about">ABOUT</a></li>
+                <li><a class="nav-link" href="index.html#experience">EXPERIENCE</a></li>
+                <li>
+                  <a class="nav-link home-link" href="project.html">PROJECTS</a>
+                </li>
+                <li><a class="nav-link" href="index.html#contact">CONTACT</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="collapse navbar-collapse justify-content-center">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#about">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#experience">EXPERIENCE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link home-link" href="project.html">PROJECTS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#contact">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="projects-container">
+      <div class="projects-grid">
+        <div class="project-item">
+          <a href="https://github.com/EireneMG/Space-Invaders" target="_blank">
+            <img src="Assets/spaceinvaders.jpg" alt="Project 1" />
+            <div class="project-overlay">
+              <h3>Space Invaders</h3>
+              <p>
+                A game project using C programming language, an interactive game
+                where the players control the ship to defend against and invade
+                aliens.
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="project-item">
+            <a
+            href="https://github.com/EireneMG/Minesweeper"
+            target="_blank"
+          >
+          <img src="Assets/minesweeper.jpg" alt="Project 2" />
+          <div class="project-overlay">
+            <h3>Minesweeper</h3>
+            <p>A simple game based on C</p>
+          </div>
+        </div>
+        <div class="project-item">
+          <a href="https://github.com/EireneMG/Typing-Test" target="_blank">
+            <img src="Assets/typing.jpg" alt="Project 3" />
+            <div class="project-overlay">
+              <h3>Typing Test</h3>
+              <p>
+                Typing Test based on C, a tool for users to practice their
+                typing skills, track their progress, and compare themselves with
+                others.
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="project-item">
+          <a
+            href="https://github.com/EireneMG/User-Registration-Form"
+            target="_blank"
+          >
+            <img src="Assets/registration-form.jpg" alt="Project 4" />
+            <div class="project-overlay">
+              <h3>User Registration Form</h3>
+              <p>
+                A registration form using Java and SQL to handle the database.
+                Users can create, log in, update, search, and delete
+                information.
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="project-item">
+          <a
+            href="https://eirenemg.github.io/Eirene-Gratuito-BLOG/"
+            target="_blank"
+          >
+            <img src="Assets/blog.jpg" alt="Project 5" />
+            <div class="project-overlay">
+              <h3>Personal Blog</h3>
+              <p>A personal blog website using HTML, CSS, and Bootstrap</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container-fluid">
+        <div class="text-center">
+          <p class="footer-text">
+            © 2023 Eirene Gratuito. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

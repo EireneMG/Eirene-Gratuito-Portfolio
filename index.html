@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Eirene Gratuito - Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+      integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <div id="hamburger-nav">
+          <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="menu-links">
+              <ul>
+                <li><a class="nav-link home-link" href="#">HOME</a></li>
+                <li><a class="nav-link" href="#about">ABOUT</a></li>
+                <li><a class="nav-link" href="#experience">EXPERIENCE</a></li>
+                <li><a class="nav-link" href="project.html">PROJECTS</a></li>
+                <li><a class="nav-link" href="#contact">CONTACT</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Your existing navbar collapse -->
+        <div class="collapse navbar-collapse justify-content-center">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link home-link" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experience">EXPERIENCE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="project.html">PROJECTS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Section -->
+    <div class="main-section">
+      <div class="main-content">
+        <h1 class="main-title">
+          I<span class="accent-dot">'</span>M<br />
+          EIRENE<br />
+          GRATUITO<span class="accent-dot">.</span>
+        </h1>
+        <p class="main-subtitle">
+          A 3RD YEAR INFORMATION<br />
+          SYSTEM STUDENT
+        </p>
+      </div>
+      <div class="main-image">
+        <img src="Assets/profile.jpg" alt="Profile Picture" />
+      </div>
+    </div>
+
+    <!--About Section-->
+    <div class="about-container" id="about">
+      <div class="about-content">
+        <h1 class="about-title">ABOUT ME</h1>
+        <p>
+          I'M A PARAGRAPH. CLICK HERE TO ADD YOUR OWN TEXT AND EDIT ME. IT'S
+          EASY. JUST CLICK “EDIT TEXT” OR DOUBLE CLICK ME TO ADD YOUR OWN
+          CONTENT AND MAKE CHANGES TO THE FONT. FEEL FREE TO DRAG AND DROP ME
+          ANYWHERE YOU LIKE ON YOUR PAGE.
+        </p>
+        <button class="download-button">DOWNLOAD RESUME</button>
+      </div>
+    </div>
+
+    <!--Project Section-->
+    <div class="hero-section">
+      <div class="hero-content">
+        <h1 class="hero-title"><span>01</span> PROJECTS</h1>
+        <div class="hero-subtitle">
+          MY LATEST WORK. <a href="project.html" class="see-more">SEE MORE ></a>
+        </div>
+        <div class="project-images">
+          <img src="Assets/spaceinvaders.jpg" alt="Space Invaders" />
+          <img src="Assets/registration-form.jpg" alt="User Registration" />
+          <img src="Assets/typing.jpg" alt="Typing Test" />
+        </div>
+
+        <h1 class="hero-title2" id="experience"><span>02</span> EXPERIENCE</h1>
+
+        <!--Experience Section-->
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-date">2024-2025</div>
+              <h3 class="timeline-title">UI/UX Design</h3>
+              <h4 class="timeline-subtitle">Web Development</h4>
+              <p class="timeline-description">
+                In my third year of college, we are currently learning web
+                design. From my current experience, I have learned about UI
+                styling and functionality. I plan to use these skills in my
+                future career, as I am now interested in becoming a UI/UX
+                designer or front-end developer.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-date">2023-2024</div>
+              <h3 class="timeline-title">Java & SQL</h3>
+              <h4 class="timeline-subtitle">Object Oriented Programming</h4>
+              <p class="timeline-description">
+                I gained experience in Java and SQL, which are used for handling
+                databases. It was quite challenging for me as it was a bit
+                confusing at first. However, I learned that databases are very
+                important and useful since they are essential for systems and
+                almost everything on the internet. I plan to apply this
+                knowledge in future projects.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-date">2023-2024</div>
+              <h3 class="timeline-title">C++ Programming</h3>
+              <h4 class="timeline-subtitle">Data Structures & Algorithms</h4>
+              <p class="timeline-description">
+                During my second year of college, we were introduced to C++. I
+                gained an understanding of its fundamental concepts, which
+                further improved my programming knowledge and abilities. I also
+                learned basic algorithms and data structures, including
+                techniques for sorting, organizing, and storing data.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-date">2022-2023</div>
+              <h3 class="timeline-title">C Programming</h3>
+              <h4 class="timeline-subtitle">Computer Programming</h4>
+              <p class="timeline-description">
+                I started learning the C programming language during my first
+                year of college. It was my first exposure to programming, and I
+                became familiar with its syntax. We developed basic systems as a
+                starting point, and as we progressed, I gained a better
+                understanding of its functions.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Contact Section-->
+    <div class="contact-section">
+      <div class="contact-container">
+        <h2 class="contact-title" id="contact">CONTACT</h2>
+
+        <div class="contact-grid">
+          <!-- Left Column - Contact Info -->
+          <div class="contact-info">
+            <p class="contact-description">
+              For more information, you can contact me via email or phone. You
+              can also send feedback by filling out the form. Thank you!
+            </p>
+            <div class="contact-details">
+              <p>eirene.gratuito@tup.edu.ph</p>
+              <br />
+              <p>+63 9176270405</p>
+            </div>
+          </div>
+
+          <!-- Right Column - Contact Form -->
+          <form class="contact-form">
+            <div class="form-row">
+              <div class="form-group">
+                <label>First name *</label>
+                <input type="text" required />
+              </div>
+              <div class="form-group">
+                <label>Last name *</label>
+                <input type="text" required />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label>Email *</label>
+              <input type="email" required />
+            </div>
+
+            <div class="form-group">
+              <label>Phone</label>
+              <input type="tel" />
+            </div>
+
+            <div class="form-group">
+              <label>Message</label>
+              <textarea rows="5"></textarea>
+            </div>
+
+            <button type="submit" class="submit-button">Send</button>
+          </form>
+        </div>
+
+        <!-- Social Media Links -->
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/eirene-gratuito-22b515317/" class="social-icon">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://github.com/EireneMG" class="social-icon">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.instagram.com/akosieirene/" class="social-icon">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://www.facebook.com/Eirene.Mndz/" class="social-icon">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container-fluid">
+        <div class="text-center">
+          <p class="footer-text">
+            © 2023 Eirene Gratuito. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
