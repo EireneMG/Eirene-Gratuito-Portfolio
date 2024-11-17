@@ -475,12 +475,11 @@ p {
   position: absolute;
   top: 45px;
   right: 0;
-  background-color: #121013;
+  background: linear-gradient(135deg, #eb596e, #ffe227);
   width: 200px;
   max-height: 0;
   overflow: hidden;
   transition: all 0.3s ease-in-out;
-  border: 1px solid #eb596e;
   box-shadow: 0 2px 4px rgba(235, 89, 110, 0.2);
   z-index: 1000;
 }
@@ -501,7 +500,7 @@ p {
   font-size: 1rem;
   text-decoration: none;
   transition: all 0.3s ease-in-out;
-  color: #ffffff !important;
+  color: white !important;
   opacity: 0.5;
 }
 
@@ -510,7 +509,7 @@ p {
 }
 
 .menu-links a.home-link {
-  color: #eb596e !important;
+  color: #121013 !important;
   opacity: 1;
 }
 
