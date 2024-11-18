@@ -126,7 +126,11 @@
   .navbar {
     display: none; /* Hide the navbar */
   }
-  
+
+  .main-section {
+    height: 600px;
+  }
+
   /* Main Section */
   .main-title {
     font-size: 2rem; 
@@ -142,34 +146,63 @@
   .main-image {
     order: 1; 
     margin: 0;
-    margin-top: 6rem;
+    margin-top: 8rem;
     display: flex;
     justify-content: center;
   }
 
   .main-image img {
-    margin: 0; 
-    max-width: 100%; 
+    margin-top: 10rem; 
+    max-width: 250px; 
+    max-height: 250px;
   }
 
   .main-content {
     order: 2; 
-    margin-top: 2rem; 
     text-align: center;
-    width: 100%;
+    margin-top: 4rem;
   }
 
   /* About Section */
   .about-container {
-    margin-top: -5rem;
+    margin-top: 6rem;
     padding: 1rem; 
-    text-align: center; /
+    text-align: center; 
+  }
+
+  .about-content {
+    margin: 1rem;
   }
 
   /* Project Preview Section */
+
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .hero-title2 {
+    font-size: 2rem;
+  }
+
+  .hero-subtitle {
+    font-size: 0.8rem;
+  }
+
   .project-images img {
     width: 100%; 
     height: auto;
+  }
+
+  .timeline-title {
+    font-size: 18px;
+  }
+  
+  .timeline-subtitle {
+    font-size: 14px;
+  }
+  
+  .timeline-description {
+    font-size: 11px;
   }
 
   #hamburger-nav {
@@ -183,4 +216,5 @@
   .projects-grid {
     grid-template-columns: 300px; 
   }
+  
 }

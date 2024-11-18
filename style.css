@@ -113,6 +113,7 @@ p {
 }
 
 .download-button {
+  text-decoration: none; /* Remove underline by default */
   background-color: transparent;
   border: 2px solid #ffe227;
   color: #ffe227;
@@ -193,10 +194,6 @@ p {
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
-}
-
-.download-button {
-  text-decoration: none; /* Remove underline by default */
 }
 
 .see-more {
